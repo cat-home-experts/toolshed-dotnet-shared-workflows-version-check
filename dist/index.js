@@ -4183,16 +4183,6 @@ function getInput(name, options) {
     return val.trim();
 }
 exports.getInput = getInput;
-/**
- * Sets the value of an output.
- *
- * @param     name     name of the output to set
- * @param     value    value to store
- */
-function setOutput(name, value) {
-    command_1.issueCommand('set-output', { name }, value);
-}
-exports.setOutput = setOutput;
 //-----------------------------------------------------------------------
 // Results
 //-----------------------------------------------------------------------
